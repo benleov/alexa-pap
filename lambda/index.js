@@ -111,7 +111,7 @@ const HelpIntent = {
     },
     handle(handlerInput) {
         const speechOutput = 'You ask for help, but there is none.';
-        const reprompt = 'If you were listening you would know what to do.';
+        const reprompt = 'You ask for help, but there is none.';
 
         return handlerInput.responseBuilder
             .speak(speechOutput)
@@ -364,6 +364,6 @@ exports.handler = skillBuilder
         UnhandledIntent,
     )
     .addErrorHandlers(ErrorHandler)
-    .withTableName('Pick-A-Path') // table is created in eu-west-1!
+    .withTableName('Pick-A-Path')
     .withAutoCreateTable(true)
     .lambda();
