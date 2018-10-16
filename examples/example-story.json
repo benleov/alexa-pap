@@ -1,0 +1,50 @@
+{
+  "id": "story",
+  "speak": " <prosody rate='90%'>This is the start of the adventure. The valid options are 2 or 3.</prosody>",
+  "initSpeak" : "Welcome to pick a path adventure. Would you like to play?",
+  "repromptSpeak" : "I didn't understand that.",
+  "invalidOptionSpeak" : "That is an invalid option. Try something else.",
+  "invalidMoveSpeak" : "That is not a valid option. Try again.",
+  "finishedGameSpeak" : "You have reached the end of the adventure.",
+  "initialEndSpeak" : "The adventure has finished.",
+  "children": [
+    {
+      "id": 2,
+      "speak": "<prosody rate='90%'>You selected two. Here is the sound of a fire <audio src='soundbank://soundlibrary/foley/amzn_sfx_large_fire_crackling_01'/> Please say 4 to continue.</prosody>",
+      "children": [
+        {
+          "id": 4,
+          "speak": "<prosody rate='90%'>You can choose 5 or 6. Which do you choose? </prosody>",
+
+          "children" : [
+            {
+              "id": 5,
+              "speak" : "<prosody rate='90%'>You have chosen option 5.</prosody>"
+            },
+            {
+              "id": 6,
+              "speak" : "<prosody rate='90%'>You have chosen option 6.</prosody>"
+            }
+
+          ]
+
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "speak": "<prosody rate='90%'>There are two valid options, 7 and 8. Which do you choose? </prosody>",
+      "children" : [
+        {
+          "id": 7,
+          "speak" :  "You have chosen option 7."
+        },          {
+          "id": 8,
+          "speak" :  "You have chosen option 8"
+        }
+
+      ]
+
+    }
+  ]
+}

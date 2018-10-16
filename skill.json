@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This is a pick a path game.",
+          "examplePhrases": [
+            "Alexa open pick a path game",
+            "Alexa start pick a path game"
+          ],
+          "name": "Pick A Path Game",
+          "description": "Play a pick a path game with Alexa"
+        },
+        "en-GB": {
+          "summary": "Play a pick a path game with Alexa",
+          "examplePhrases": [
+            "Alexa open pick a path game",
+            "Alexa start pick a path game"
+          ],
+          "name": "Pick A Path Game",
+          "description": "Play a pick a path game with Alexa"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

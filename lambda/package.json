@@ -1,0 +1,22 @@
+{
+  "name": "alexa-pap",
+  "version": "1.0.0",
+  "description": "Pick a path adventure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Alexa",
+    "game",
+    "skill"
+  ],
+  "author": "Benjamin Leov",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ask-sdk": "^2.0.0",
+    "tree-model": "^1.0.7",
+    "aws-sdk": "2.322.0",
+    "es6-promisify": "^6.0.0"
+  }
+}
