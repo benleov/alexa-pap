@@ -47,6 +47,7 @@ ASK CLI will create the skill and the lambda function for you. The Lambda functi
 1. Deploy the skill and the lambda function in one step by running the following command:
 
 	```bash
+	$ cd .. # to get back to the root directory
 	$ ask deploy
 	```
 
