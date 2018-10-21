@@ -19,7 +19,7 @@ This project allows you to create your own voice based pick a path adventure whi
 1. Clone the repository.
 
 	```bash
-	$ git clone https://github.com/alexa-pap/
+	$ git clone https://github.com/benleov/alexa-pap.git
 	```
 
 1. Navigating into the repository's root folder.
